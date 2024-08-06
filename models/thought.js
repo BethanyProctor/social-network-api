@@ -1,8 +1,8 @@
-const mongoose = require('mongoose')
+const { Schema, model } = require('mongoose')
 const dayJS = require('dayjs')
 const reactionSchema = require('./reaction')
 
-const thoughtSchema = new mongoose.Schema(
+const thoughtSchema = new Schema(
     {
         thoughtText: {
             type: String,
@@ -35,6 +35,6 @@ thoughtSchema.virtual('reactionCount').get(() => {
     return this.reactions.length
 })
 
-const Thought = mongoose.model('thought', thoughtSchema)
+const Thought = model('thought', thoughtSchema)
 
 module.exports = Thought

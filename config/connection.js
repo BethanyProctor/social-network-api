@@ -1,6 +1,4 @@
-const { connect, connection } = require('mongoose')
-const connectionString = 'mongodb://127.0.0.1:27017/bootcamp'
+const mongoose = require('mongoose')
 
-connect(connectionString)
-
-module.exports = connection;
+mongoose.connect(process.env.MONGOURI || 'mongodb://localhost:27017/socialnetwork')
+module.exports = mongoose.connection;

@@ -21,7 +21,7 @@
   Watch the walkthrough video of the app <a href="">here</a>.
   </br>
   </br>
-
+![alt text](image.png)
   </br>
   </br>
   Languages : JavaScript

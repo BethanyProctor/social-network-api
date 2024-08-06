@@ -15,7 +15,14 @@
   The dependencies of this project include Express.js, Mongoose, and dayJs.
 
   ## Usage
-  Because this application is not deployed and only features a back-end, the user will need to use Insomnia or Postman to interact with it. The user can create an account with their email and chosen username while using a `POST` route. They can also find other users, update their user using a `PUT` route, and delete their user using a `DELETE` route if they choose to. They can also interact with friends by following and unfollowing other users. Users can post, update, and delete their thoughts, as well as react to the thoughts of other users. 
+  Because this application is not deployed and only features a back-end, the user will need to use Insomnia or Postman to interact with it. The user can create an account with their email and chosen username while using a `POST` route. They can also find other users with a `GET` route, update their user using a `PUT` route, and delete their user using a `DELETE` route if they choose to. They can also interact with friends by following and unfollowing other users. Users can post, update, and delete their thoughts, as well as react to the thoughts of other users. 
+  </br>
+  </br>
+  Watch the walkthrough video of the app <a href="">here</a>.
+  </br>
+  </br>
+
+  </br>
   </br>
   Languages : JavaScript
 
@@ -24,7 +31,4 @@
 
   ## Contact Me
   Find me on GitHub: BethanyProctor
-  </br>
-  Email me: 
-
   
